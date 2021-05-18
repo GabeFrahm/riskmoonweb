@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+body {
+    background-color: #2C2E3A;
+}
+
+.title {
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 5rem;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.desc {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.desc-2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+
+.head-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    margin: auto;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: space-around;
+    padding-top: 0;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.funny-stat {
+
+}
+
+.head {
+    margin: 2%;
+    width:76%;
+
+}
+
+.logo {
+    width: 20%;
+}
+
+.btn-1 {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    background-color: #DF5719;
+    border-radius: 4px;
+    margin-right: 1.5%;
+
+    margin-top: 1.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+    transition: ease-out 0.3s;
+}
+
+.btn-1:hover {
+    box-shadow: inset 300px 0 0 0 #6BDB6B;
+    cursor: pointer;
+}
+
+.btn-2 {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+
+    margin-top: 1.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    outline: none;
+    transition: ease-out 0.3s;
+    border: 2px solid white;
+}
+
+.btn-2:hover {
+    border: 2px solid black;
+    box-shadow: inset 300px 0 0 0 white;
+    color: black;
+    cursor: pointer;
+}
