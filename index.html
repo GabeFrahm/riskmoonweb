@@ -3,25 +3,88 @@
     <title>Riskmoon - SUBTITLE HERE</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="keywords" content="Riskmoon, NFT, Crypto, Safemoon">
-    <meta name="description" content="An evolving platform to leverage risk with dynamic yield generating strategies from NFTs. NFT staking, marketplace, and DEEPSPACE game in progress.">
+    <meta name="description" content="An evolving platform to leverage risk with dynamic yield generating strategies from NFTs. With NFT staking, an NFT marketplace, and DEEPSPACE game on the way.">
 </head>
 <body>
-    <div class=head-container>
+    <header>
+        <nav>
+            <a href="">
+                <img src="assets/riskmoon_logo_with_text.png" alt="Riskmoon" class="navlogo">
+            </a>
+            <a href="">
+                <button class = "btn-1">Buy Now</button>
+            </a>
+            <a href="#main-anchor" style="text-decoration:none">
+                <p class="navtext">Info</p>
+            </a>
+            <a href="" style="text-decoration:none">
+                <p class="navtext">Tokenomics</p>
+            </a>
+        </nav>
+    </header>
+    <div id="particles-js"></div>
+    <div id=head-container>
         <img src="assets/riskmoon_logo_v2.png" alt="RiskMoon logo" class="logo">
         <div class="head">
+            <p class="sub">Hop Aboard Mission</p>
             <h1 class="title">Riskmoon</h1>
-            <p class="desc">An evolving platform to leverage risk with dynamic yield generating strategies from NFTs. NFT staking, marketplace, and DEEPSPACE game in progress.</p>
-            <button class = "btn-1">Buy Now</button>
-            <button class = "btn-2">Live Charts</button>
+            <p class="desc">An evolving platform to leverage risk with dynamic yield generating strategies from NFTs. With NFT staking, an NFT marketplace, and DEEPSPACE game on the way</p>
+            <div class="logos">
+                <button class = "btn-1">Buy Now</button>
+                <button class = "btn-2">Live Charts</button>
+                <a href="https://bscscan.com/token/0xa96f3414334F5A0A529ff5d9D8ea95f42147b8C9" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/logos/bsc-logo.png" alt="bscscan" class="brand">
+                </a>
+                <a href="https://www.coingecko.com/en/coins/riskmoon" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/logos/coingecko-logo.png" alt="coingecko" class="brand"> 
+                </a>
+                <a href="https://coinmarketcap.com/currencies/riskmoon/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/logos/coinmarket-logo.png" alt="coingecko" class="brand">
+                </a>
+            </div>
+
         </div>
-        <!-- Chart and Buy buttons here-->
     </div>
-    <div class="stats">
-        <div class="funny-stat">
-            <p class="desc-2">Holders</p>
+    <a id="main-anchor"></a>
+    <div id="main">
+        <div class="flex-container">
+            <div class = "container-div">
+                <h2 class="title2">43k Passengers</h2>
+                <p class="desc-2">Riskmoon already has over 43 thousand passengers and is rapidly growing! More example text because this needs to look more full and writing is not my strong suit</p>
+            </div>
+            <div class = "container-div-i">
+                <img src="assets/helmet.png" alt="RiskMoon logo" class = "body-i">
+            </div>
         </div>
-
+        <div class="flex-container">
+            <div class = "container-div-i">
+                <img src="assets/nft.png" alt="RiskMoon logo" class = "body-i">
+            </div>
+            <div class = "container-div">
+                <h2 class="title2">NFT Marketplace</h2>
+                <p class="desc-2">This is where we would talk about the thing. A really cool thing. Once might even say game changing. Riskmoon is a Bitcoin killer?!?!</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class = "container-div">
+                <h2 class="title2">DEEPSPACE Game</h2>
+                <p class="desc-2">Yo it's basically gonna be fortnite in space dawg its gonna be WIIIIILD. Someone said that in the telegram so I believe them and it's gonna be the first ever AAAA game this studio is wild dawg this game is gonna be so damn good SHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESH</p>
+            </div>
+            <div class = "container-div-i">
+                <img src="assets/controller.png" alt="RiskMoon logo" class = "body-i">
+            </div>
+        </div>
     </div>
+    LOOK INTO CHART.JS
 
 
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+    <script>
+        console.log("beep boop")
+        window.onload = function() {
+            document.getElementById("head-container").style.opacity = 1;
+        }
+    </script>
 </body>
